@@ -1,0 +1,1 @@
+ls -p --ignore=".*" --group-directories-first -t | tr '\n' ',' | sed 's/,$/\n/'
